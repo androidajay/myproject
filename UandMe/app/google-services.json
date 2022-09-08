@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "805774514038",
+    "project_id": "uandme-520ae",
+    "storage_bucket": "uandme-520ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805774514038:android:ea3154148eaa618bff8c57",
+        "android_client_info": {
+          "package_name": "com.uandme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805774514038-g9sqsgtlmva9hbevgjn6md61tvt7oaop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_udDvr4bFVBK-kAt9C-FIwRatkaDxFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805774514038-g9sqsgtlmva9hbevgjn6md61tvt7oaop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
