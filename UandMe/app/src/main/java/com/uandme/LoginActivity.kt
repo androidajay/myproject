@@ -16,8 +16,6 @@ class LoginActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         initView()
 
-
-
         Log.e("TAG", "onCreate: ", )
 
     }
