@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
+    id 'com.google.firebase.appdistribution'
+
 }
 
 android {
@@ -33,6 +35,12 @@ android {
     dataBinding {
         enabled true
     }
+}
+
+firebaseAppDistribution {
+    releaseNotes = "Test "
+    serviceCredentialsFile = "$rootDir/uandme-520ae-ab3acddb3cfa.json"
+    groups="android_testers"
 }
 
 dependencies {
